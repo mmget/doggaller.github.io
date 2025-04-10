@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.upload-section {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.upload-section input[type="file"] {
+    margin: 10px 0;
+}
+
+.dog-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.dog-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+}
+
+.dog-card img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.rating span {
+    font-size: 1.5em;
+    cursor: pointer;
+    margin: 0 5px;
+    color: #ccc;
+}
+
+.rating span.active {
+    color: red;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
